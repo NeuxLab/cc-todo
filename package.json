@@ -1,0 +1,36 @@
+{
+  "name": "todo",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "OCR extension",
+  "keywords": [],
+  "repository": "https://github.com/cc/string-utils",
+  "license": "MIT",
+  "engines": {
+    "cc": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "itemTypes": {
+    "neux": {
+      "todo": {
+        "base": "core.text",
+        "priority": "number",
+        "done": "boolean"
+      }
+    }
+  },
+  "actionProviders": [
+    {
+      "name": "todo",
+      "description": "Convert the string to a todo item.",
+      "input": "text",
+      "output": "neux.todo",
+      "methodName": "todo",
+      "asNewRecord": true
+    }
+  ],
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "vueify": "^9.4.1"
+  }
+}
