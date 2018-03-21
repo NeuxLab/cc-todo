@@ -2,7 +2,7 @@
   "name": "todo",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "OCR extension",
+  "description": "Todo extension",
   "keywords": [],
   "repository": "https://github.com/cc/string-utils",
   "license": "MIT",
@@ -13,9 +13,11 @@
   "itemTypes": {
     "neux": {
       "todo": {
-        "base": "core.text",
-        "priority": "number",
-        "done": "boolean"
+        "done": "boolean",
+        "priority": "integer",
+        "_meta": {
+          "base": "core.text"
+        }
       }
     }
   },
