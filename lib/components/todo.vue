@@ -1,11 +1,15 @@
 <template>
   <cc-card :record='record' class='cc-neux-todo' :class="[item.done ? 'done' : '']" source="">
-    <cc-mini-neux-todo :item="item" :item-id="this.record._id"></cc-mini-neux-todo>
+    <todo :item="item" :item-id="this.record._id"></todo>
   </cc-card>
 </template>
 <script>
+import Todo from './mini.vue'
 export default {
   props: ['record'],
+  components: {
+    todo: Todo
+  },
   computed: {
     item() {
       return this.record.ancestor

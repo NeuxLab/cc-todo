@@ -2,7 +2,6 @@
   <div class='cc-mini-neux-todo'>
     <input class="todo-status input-checkbox" type="checkbox" v-model='item.done' @click.stop>
     <span class='cc-text'>{{item.text}}</span>
-    <span class='icon icon-clock'></span>
   </div>
 </template>
 <script>
@@ -31,15 +30,6 @@ export default {
   }
   .cc-text {
     flex: 1;
-  }
-  .cc-content {
-    display: flex;
-  }
-  .icon-clock {
-    margin-left: 0.5em;
-    &:before {
-      margin-right: 0;
-    }
   }
 }
 </style>
