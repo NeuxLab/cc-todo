@@ -1,4 +1,4 @@
-const metadata = {
+module.exports = {
   description: '待办事项插件',
   actionProviders: [
     {
@@ -7,5 +7,3 @@ const metadata = {
     }
   ]
 }
-
-module.exports = {metadata}
