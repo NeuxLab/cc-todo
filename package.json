@@ -28,7 +28,7 @@
       "input": "text",
       "output": "neux.todo",
       "methodName": "todo",
-      "asNewRecord": true
+      "onOutput": "replace"
     }
   ],
   "devDependencies": {
