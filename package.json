@@ -16,7 +16,8 @@
         "done": "boolean",
         "priority": "integer",
         "_meta": {
-          "base": "core.text"
+          "base": "core.text",
+          "localizedName": "todo"
         }
       }
     }

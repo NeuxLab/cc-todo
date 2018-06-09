@@ -5,5 +5,14 @@ module.exports = {
       name: "添加到todo",
       description: "将这段文字转换成一个Todo项"
     }
-  ]
+  ],
+  itemTypes: {
+    "neux": {
+      "todo": {
+        "_meta": {
+          "localizedName": "待办"
+        }
+      }
+    }
+  },
 }
