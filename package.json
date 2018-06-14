@@ -1,10 +1,10 @@
 {
   "name": "todo",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Todo extension",
   "keywords": [],
-  "repository": "https://github.com/cc/string-utils",
+  "repository": "https://github.com/NeuxLab/cc-todo",
   "license": "MIT",
   "engines": {
     "cc": ">=1.0.0 <2.0.0"
@@ -33,7 +33,6 @@
     }
   ],
   "devDependencies": {
-    "babel-preset-env": "^1.6.1",
     "vueify": "^9.4.1"
   }
 }
